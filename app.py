@@ -30,7 +30,7 @@ if st.button("🚀 Initialize Keras-Jala"):
 
     # Initialize AI and Scraper
     genai.configure(api_key=gemini_key)
-    model = genai.GenerativeModel('gemini-1.5-pro')
+    model = genai.GenerativeModel('gemini-3.1-pro-preview')
     app = FirecrawlApp(api_key=firecrawl_key)
 
     # Visual UI Tabs
